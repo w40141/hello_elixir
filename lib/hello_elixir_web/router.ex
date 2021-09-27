@@ -18,6 +18,7 @@ defmodule HelloElixirWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/newworld", NewworldController, :index
   end
 
   # Other scopes may use custom stacks.
