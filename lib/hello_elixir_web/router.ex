@@ -19,6 +19,7 @@ defmodule HelloElixirWeb.Router do
 
     get "/", PageController, :index
     get "/newworld", NewworldController, :index
+    get"/newworld/:id", NewworldController, :show
   end
 
   # Other scopes may use custom stacks.

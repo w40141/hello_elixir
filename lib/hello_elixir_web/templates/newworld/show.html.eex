@@ -1,0 +1,4 @@
+<div class="phx-hello">
+    <h2>Hi! <%= @id %> ! </h2>
+    <h2>Hello New World, from Phoenix! </h2>
+</div>
